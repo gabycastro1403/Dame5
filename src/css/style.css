@@ -4,13 +4,13 @@ h1{
 }
 
 #barmain{
-    background-color: green;
+    background-color: #070941;
 }
 
 .nav-profile {
     width: 100%;
     height: 8vh;
-    background-color: green; 
+    background-color: #070941; 
     border: 0; 
     color: white; 
 }
@@ -38,7 +38,7 @@ h5 {
 }
 
 .user-nav {
-    background-color: blue; 
+    background-color: #070941; 
 }
 
 #nav-box {
@@ -46,7 +46,10 @@ h5 {
 }
 
 .col-nav{
-    width: 50%; 
+    width: 38%; 
+    height: 30vh;
+    padding: 5%; 
+    margin: 5%;  
 }
 
 #logo-dame5 {
