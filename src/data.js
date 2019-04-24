@@ -29,7 +29,7 @@ const loginGoogle = document.getElementById('login-google');
      alert('si funciono')
      location.replace('./user_account.html')
     } else {
-        alert('hubo un problema')
+        alert('Bienvenido')
       //que lo deje en la pagina del logo 
     }
   })
