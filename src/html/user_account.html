@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Dame5</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -18,10 +19,10 @@
             <div class="p-4" id="barmain">
                 <h5 class="text-white h4">Dame 5</h5>
                 <div class="user-img"></div>
-                <button class="nav-menu-button">Cuenta</button>
-                <button class="nav-menu-button">Prestamo</button>
-                <button class="nav-menu-button">Retiro de efectivo</button>
-                <button class="nav-menu-button">Plan de pago</button>
+                <button class="nav-profile">Nombre </button>
+                <button class="nav-profile">Empresa</button>
+                <button class="nav-profile">Saldo</button>
+                <button class="nav-profile">Nivel</button>
             </div>
         </div>
         <nav id="barmain" class="navbar navbar-dark">
@@ -33,6 +34,15 @@
         </nav>
     </div>
     <button id= "logout">Cerrar Sesión</button>
+
+<!-- Botones de navegación -->
+<div class="row" id="nav-box">
+ <article class="col-nav user-nav"> Historial </article>
+ <article class="col-nav user-nav"> Prestamo </article>
+ <article class="col-nav user-nav"> Retiro digital </article>
+ <article class="col-nav user-nav"> Pagos </article>
+</div>
+
 
     <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-auth.js"></script>
