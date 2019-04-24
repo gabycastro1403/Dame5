@@ -44,3 +44,7 @@ h5 {
 #nav-box {
     margin: 0 auto; 
 }
+
+.col-nav{
+    width: 50%; 
+}
