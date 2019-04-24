@@ -26,3 +26,15 @@ h1{
 h5 {
     text-align: center; 
 }
+
+#login-google{
+width: 50%;
+height: 30px;
+border: 0px; 
+background-image: url(../images/logo_google.png); 
+background-color: white; 
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat; 
+margin: 0 auto;
+}
