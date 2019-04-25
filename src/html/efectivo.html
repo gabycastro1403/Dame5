@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,28 +8,31 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
     <nav class="general-nav">
-    <p class="photo-user" id="photo"></p> 
-    <p class="title">Disposición de efectivo</p>
+        <p class="photo-user" id="photo"></p>
+        <p class="title">Disposición de efectivo</p>
     </nav>
+    <a href="./user_account.html"><button id="home"></button></a>
 
-<article id="body-content">
+
+    <article id="body-content">
         <input id="cash-code" type="number" placeholder="¿Cuál es el monto que quieres retirar?">
         <button id="code-generator">Genera tu código</button>
-        <div class = "hide" id="codigo">
-        <p>Código:</p>
-        <br> 
-        <span>2727738917</span>
-        <br>
-        <br> 
-        <p>Contraseña:</p>
-        <br> 
-        <span>3748</span>
+        <div class="hide" id="codigo">
+            <p>Código:</p>
+            <br>
+            <span>2727738917</span>
+            <br>
+            <br>
+            <p>Contraseña:</p>
+            <br>
+            <span>3748</span>
         </div>
-</article>    
+    </article>
 
-<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-database.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -43,4 +47,5 @@
     <script src="../data.js"></script>
 
 </body>
+
 </html>
