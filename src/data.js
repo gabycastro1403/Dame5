@@ -60,7 +60,14 @@ const loginGoogle = document.getElementById('login-google');
     console.log("Usuario fuera");
     location.replace('./index.html')
   });
+}else if(location.href.match(/(efectivo.html)$/g)){
+  alert('holi');
+  const userLocal = localStorage.getItem('foto');
+  const photo = document.getElementById('photo');
 
+  photo.innerHTML=`<img class="photo-user" src='${userLocal}'>`;
+
+
+}
 
  
-}
