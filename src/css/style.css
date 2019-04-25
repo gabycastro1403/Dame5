@@ -149,3 +149,16 @@ h5 {
     width: 90%;
     height: 16vh; 
 }
+
+/* estilos cuenta */
+#icono-cuenta {
+    background-image: url(../images/cuenta.png);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 30%;
+    height: 16vh;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
