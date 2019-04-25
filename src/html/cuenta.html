@@ -1,16 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Document</title>
 </head>
+
 <body>
-        <nav class="general-nav">
-                <article class="photo-user"></article> 
-                <p class="title">Disposición de efectivo</p>
-                </nav>
-    Este será el historial del usuario
+    <nav class="general-nav">
+        <article class="photo-user"></article>
+        <p class="title">Estado de cuenta</p>
+    </nav>
+    <article id="icono-cuenta"></article>
+
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Nivel de uso</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Saldo anterior</th>
+                <td>$2,875.14</td>
+            </tr>
+            <tr>
+                <th scope="row">Compras/Disposiciones</th>
+                <td>$2,675.69</td>
+            </tr>
+            <tr>
+                <th scope="row">Comisiones cobradas</th>
+                <td>$0.00</td>
+            </tr>
+            <tr>
+                    <th scope="row">Intereses cargados</th>
+                    <td>$0.00</td>
+            </tr>
+            <tr>
+                    <th scope="row">IVA</th>
+                    <td>$0.00</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
