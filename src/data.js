@@ -64,6 +64,19 @@ const loginGoogle = document.getElementById('login-google');
   const userLocal = localStorage.getItem('foto');
   const photo = document.getElementById('photo');
   photo.innerHTML=`<img class="photo-user" src='${userLocal}'>`;
+  const inputCash = document.getElementById('cash-code');
+  const codeGenerator = document.getElementById('code-generator');
+  const codigo = document.getElementById('codigo');
+  codeGenerator.addEventListener('click', () => {
+    const cash = inputCash.value;
+    if(cash.length > 0){
+      codigo.classList.remove('hide');
+      inputCash.value='';
+    }
+  })
+    
+  
+  
 }else if (location.href.match(/(cuenta.html)$/g)){
   const userLocal = localStorage.getItem('foto');
   const photo = document.getElementById('imageUser');
@@ -71,6 +84,10 @@ const loginGoogle = document.getElementById('login-google');
 }else if (location.href.match(/(prestamos.html)$/g)){
   const userLocal = localStorage.getItem('foto');
   const photo = document.getElementById('imagen');
+  photo.innerHTML=`<img class="photo-user" src='${userLocal}'>`;
+}else if (location.href.match(/(pagos.html)$/g)){
+  const userLocal = localStorage.getItem('foto');
+  const photo = document.getElementById('fotografia');
   photo.innerHTML=`<img class="photo-user" src='${userLocal}'>`;
 }
 

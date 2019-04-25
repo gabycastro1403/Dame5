@@ -114,6 +114,10 @@ h5 {
     text-align: center;
 }
 
+.hide{
+    display:none;
+}
+
 /* menu */
 #cuenta {
     background-image: url(../images/cuenta.png);
@@ -163,6 +167,9 @@ h5 {
     margin-bottom: 20px; 
 }
 
+
+
+
 #calendario {
     width: 100%; 
     background-color: #070941;
@@ -193,3 +200,4 @@ h5 {
     border: 0; 
     margin: 20px; 
 }
+
