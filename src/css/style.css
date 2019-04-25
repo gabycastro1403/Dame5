@@ -36,7 +36,7 @@ h5 {
 
 #logo-box {
     width: 30%;
-    padding-top: 100px;
+    padding-top: 30px;
     margin: 0 auto;
 }
 
@@ -58,6 +58,7 @@ h5 {
 #logo-dame5 {
     width: 30%;
     padding-top: 100px;
+    padding-bottom: 30px; 
     margin: 0 auto;
 }
 
@@ -88,6 +89,10 @@ h5 {
     padding: 10px;
     margin-right: 5px; 
     text-align: right; 
+}
+
+p {
+    text-align: center; 
 }
 
 /* Estilos efectivo  */
@@ -126,6 +131,7 @@ h5 {
     background-repeat: no-repeat; 
     width: 90%;
     height: 15vh; 
+    color: white; 
 }
 
 #prestamo {
@@ -156,6 +162,18 @@ h5 {
 }
 
 /* estilos cuenta */
+.links {
+    color: white; 
+}
+
+.links:hover{
+    color: cyan;
+  }
+  
+  .links:active{
+    color: yellow;
+  }
+
 #icono-cuenta {
     background-image: url(../images/cuenta.png);
     background-size: cover;
@@ -166,9 +184,6 @@ h5 {
     margin-top: -50px;
     margin-bottom: 20px; 
 }
-
-
-
 
 #calendario {
     width: 100%; 
