@@ -112,6 +112,10 @@ h5 {
     text-align: center;
 }
 
+.hide{
+    display:none;
+}
+
 /* menu */
 #cuenta {
     background-image: url(../images/cuenta.png);
@@ -160,4 +164,5 @@ h5 {
     margin-top: 20px;
     margin-bottom: 20px; 
 }
+
 
