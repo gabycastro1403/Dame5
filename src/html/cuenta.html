@@ -7,18 +7,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Dame5</title>
 </head>
 
 <body>
     <nav class="general-nav">
-        <article class="photo-user" id = "imageUser"></article>
+        <article class="photo-user" id="imageUser"></article>
         <p class="title">Estado de cuenta</p>
     </nav>
+    <a href="./user_account.html"><button id="home"></button></a>
     <article id="icono-cuenta"></article>
 
     <table class="table">
-        <thead class="thead-dark">
+        <thead class="table-head">
             <tr>
                 <th scope="col">Nivel de uso</th>
                 <th scope="col"></th>
@@ -45,8 +46,29 @@
                     <th scope="row">IVA</th>
                     <td>$0.00</td>
             </tr>
+            <tr>
+                    <th scope="row">Pagos/Reembolsos/Devoluciones</th>
+                    <td>$2,880.00</td>
+            </tr>
+            <tr>
+                    <th scope="row">Saldo pagos diferidos</th>
+                    <td>$0.00</td>
+            </tr>
+            <tr>
+                    <th scope="row">Saldo total</th>
+                    <td>$2,652.83</td>
+            </tr>
+            <tr>
+                    <th scope="row">Limite de crédito</th>
+                    <td>$3,000.00</td>
+            </tr>
+            <tr>
+                    <th scope="row">Crédito disponible</th>
+                    <td>$347.00</td>
+            </tr>
         </tbody>
     </table>
+    <div id="center"><button id="calendario">Calendario de pagos</button></div>
 
 
     <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-app.js"></script>
