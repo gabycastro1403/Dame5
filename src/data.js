@@ -61,13 +61,17 @@ const loginGoogle = document.getElementById('login-google');
     location.replace('./index.html')
   });
 }else if(location.href.match(/(efectivo.html)$/g)){
-  alert('holi');
   const userLocal = localStorage.getItem('foto');
   const photo = document.getElementById('photo');
-
   photo.innerHTML=`<img class="photo-user" src='${userLocal}'>`;
-
-
+}else if (location.href.match(/(cuenta.html)$/g)){
+  const userLocal = localStorage.getItem('foto');
+  const photo = document.getElementById('imageUser');
+  photo.innerHTML=`<img class="photo-user" src='${userLocal}'>`;
+}else if (location.href.match(/(prestamos.html)$/g)){
+  const userLocal = localStorage.getItem('foto');
+  const photo = document.getElementById('imagen');
+  photo.innerHTML=`<img class="photo-user" src='${userLocal}'>`;
 }
 
  
